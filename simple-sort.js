@@ -21,3 +21,25 @@ for (let currentIndex = 0;  currentIndex <= someArray.length - 2; currentIndex++
     console.log('На позиции ' + currentIndex + ' находится минимальный элемент ' + minValue);
 }
 
+console.log('Отсортированный по возрастанию массив: ' + someArray);
+
+// медианное значение
+
+let median;
+
+//если длина массива нечетная, то медианное значение ровно посередине
+
+if (someArray.length % 2 !== 0) {
+    let medianIndex = (someArray.length - 1) / 2;
+    median = someArray[medianIndex];
+
+//иначе берется среднее арифм между двумя средними значениями, стоящими рядом
+    
+} else {
+    let leftIndex = someArray.length / 2 - 1;
+    let rightIndex = someArray.length / 2;
+
+    median = (someArray[leftIndex] + someArray[rightIndex]) / 2;
+}
+
+console.log('Медианное значение: ' + median);
