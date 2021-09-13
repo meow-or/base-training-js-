@@ -43,3 +43,34 @@ if (someArray.length % 2 !== 0) {
 }
 
 console.log('Медианное значение: ' + median);
+
+
+
+// отсортировать строку в обратном порядке
+
+let someString = 'abcdef';
+
+let someArr = someString.split('');
+
+console.log(someArr);
+
+for (let i = 0; i <= someArr.length - 2; i++) {
+
+    let maxValue = someArr[i];
+
+    for (let j = i + 1; j <= someArr.length - 1; j++) {
+
+        if (someArr[j] > maxValue) {
+            maxValue = someArr[j];
+
+            let box = someArr[i];
+            someArr[i] = maxValue;
+            someArr[j] = box;
+        }
+    }
+}
+
+console.log(someArr);
+
+
+console.log(someArr.join(''));
