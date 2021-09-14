@@ -1,3 +1,4 @@
+/*
 let someArray = [7, 3, 4, 8, 34, 12, 16, 43, 5, 9, 101];
 console.log(someArray);
 
@@ -74,3 +75,20 @@ console.log(someArr);
 
 
 console.log(someArr.join(''));
+*/
+
+let calculateSalary = function (grossPay) {
+  let homePay;
+  
+  if (grossPay < 100000) {
+    homePay = grossPay - grossPay * 0.35;
+    
+  } else {
+    homePay = grossPay - grossPay * 0.45;
+  }
+  
+  return homePay;
+ 
+}
+
+console.log(calculateSalary(120000));
