@@ -1,4 +1,4 @@
-
+/*
 
 let getPrice = function(hours, isUrgent) {
   
@@ -20,4 +20,4 @@ let getPrice = function(hours, isUrgent) {
 
 getPrice(300, true);
 
-console.log(getPrice(300, true));
+console.log(getPrice(300, true));*/
