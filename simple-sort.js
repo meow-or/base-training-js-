@@ -1,4 +1,4 @@
-/*
+
 let someArray = [7, 3, 4, 8, 34, 12, 16, 43, 5, 9, 101];
 console.log(someArray);
 
@@ -75,5 +75,5 @@ console.log(someArr);
 
 
 console.log(someArr.join(''));
-*/
+
 
