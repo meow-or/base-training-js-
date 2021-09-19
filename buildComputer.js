@@ -39,3 +39,33 @@ console.log('В корзине ' + myComputer.getDescription() + ' стоимо�
 let anotherComputer = buildComputer(16, 15, 'i5');
 
 console.log('В корзине ' + anotherComputer.getDescription() + ' стоимостью ' + anotherComputer.getPrice());
+
+// Object as a dictionary
+
+let catsFavouriteFood = {
+  Кекс: 'рыба',
+  Рудольф: 'котлета',
+  Снежок: 'сметана'
+}
+
+let printFavouriteFood = function(name) {
+  // let's use [] notation
+  return 'My favourite food - ' + catsFavouriteFood[name];
+
+}
+
+console.log(printFavouriteFood('Рудольф'));
+
+// this
+
+let cat = {
+  name: 'Keks',
+  color: 'orange',
+  age: 5,
+
+  getGreeting: function() {
+    return 'Мяу, привет! Меня зовут ' + this.name;
+  }
+}
+
+console.log(cat.getGreeting());
