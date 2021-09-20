@@ -18,3 +18,5 @@ let rublesAmount = euroRate * euroAmount + dollarRate * dollarAmount;
 Создай переменную rublesAmount и записывай в неё результат вычислений.
 
 */
+
+console.log(hello world);
