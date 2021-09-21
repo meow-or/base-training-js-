@@ -1,10 +1,11 @@
+/*
 let euroRate = 74;
 let dollarRate = 63;
 
 let euroAmount = 500;
 let dollarAmount = 2500;
 
-let rublesAmount = euroRate * euroAmount + dollarRate * dollarAmount;
+let rublesAmount = euroRate * euroAmount + dollarRate * dollarAmount;*/
 
 
 /* Техническое задание
@@ -18,5 +19,3 @@ let rublesAmount = euroRate * euroAmount + dollarRate * dollarAmount;
 Создай переменную rublesAmount и записывай в неё результат вычислений.
 
 */
-
-console.log(hello world);
